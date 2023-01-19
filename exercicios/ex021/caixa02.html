@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.63);
+            
+        }
+        article > p{
+            text-align: justify;
+        }
+        header{
+            text-align: center;
+            color: white;
+        }
+        nav>a{
+            color: white;
+            text-decoration: none;
+            margin-right: 30px;
+            
+        }
+        main{
+            background-color: rgb(24, 23, 23);
+            color: white;
+            border-radius: 20px;
+        }
+        h2{
+            padding: 10px;
+        }
+        article >aside>iframe{
+            border: 3px solid rgb(255, 255, 255);
+        }
+        aside{
+            text-align: center;
+        }
+        aside > p > a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+        }
+        footer{
+            color: white;
+            text-align: center;
+        }
+        nav{
+            display: inline-block;
+            background-color:rgb(54, 45, 45);
+            font-weight: bolder;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.678);
+            border-radius: 30px 0px;
+            width:800px;
+            height: 55px;
+            margin: 60px; 
+        }
+        header>nav{
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Notícias de jogos
+        </h1>
+        <nav>
+            <br>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </br>
+            
+        </nav>
+    </header>
+    <main>
+        <section>
+
+            <h2>Lançamento do PlayStation 5</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi dignissimos, repudiandae delectus architecto aliquam amet, nemo sapiente ab, velit perspiciatis. Soluta incidunt consectetur quidem quis fuga expedita dicta non. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, accusamus recusandae! Animi laborum architecto tenetur. Non, reprehenderit quos fuga repellendus temporibus ipsam. Odio dolor ex ullam quos labore voluptates minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellat doloremque consequuntur! Aperiam dolorem odit cupiditate asperiores, molestias harum voluptatum! Facilis rem, maxime rerum quisquam quam animi ratione corrupti vero.</p>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque placeat minima sint temporibus sunt, voluptatem excepturi tempore, deserunt rerum consectetur ut at fugiat provident praesentium facere harum ab ratione odio.</p>
+                <aside>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RkC0l4iekYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen></iframe>
+                    
+                    <p>
+                        Para ver o video completo <a href="https://www.youtube.com/watch?v=RkC0l4iekYo&ab_channel=PlayStation" target="_blank">Clique Aqui</a>
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Direitos reservados a Sony.</p>
+    </footer>
+</body>
+</html>
