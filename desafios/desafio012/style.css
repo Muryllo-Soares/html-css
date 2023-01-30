@@ -26,7 +26,7 @@ header a, footer a{
     text-decoration: none;
     font-weight: bolder;
 }
-header a:hover, fotter a:hover{
+header a:hover, footer a:hover{
 text-decoration: underline;
 }
 
