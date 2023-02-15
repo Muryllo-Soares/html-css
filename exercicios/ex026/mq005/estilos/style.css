@@ -36,6 +36,7 @@ menu ul{
 }
 
 menu a{
+    border-radius: 10px;
     display: block;
     padding: 10px;
     text-decoration:none;
