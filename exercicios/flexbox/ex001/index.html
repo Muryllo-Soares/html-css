@@ -38,8 +38,8 @@
             color: white;
             text-align: center;
             font-size: 2em;
-            width: 100px;
-            height: 100px;
+            /* width: 100px;
+            height: 100px; */
             border-radius: 10px;
         }
 
@@ -48,26 +48,33 @@
             order: 0;
             flex-grow: 0;
             flex-shrink: 1;
+            flex-basis: 50px;
+            
         }
+
+
         div.bloco-2{
             background-color: rgba(0, 255, 255, 0.719);
             order: 0;
             flex-grow: 0;
             flex-shrink: 1;
+            flex-basis:auto;
+            
         }
+
         div.bloco-3{
             background-color: blueviolet;
             order:0;
             flex-grow: 0;
             flex-shrink: 1;
-
+            flex-basis:50px;
         }
     </style>
 </head>
 <body>
     <main class="container">
         <div class="bloco-1">1</div>
-        <div class="bloco-2">2</div>
+        <div class="bloco-2">1234567890</div>
         <div class="bloco-3">3</div>
         <!-- <div class="bloco-1">4</div>
         <div class="bloco-2">5</div>
